@@ -1,136 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eki Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
 
-  <!-- Scroll Button -->
-  <div class="scrollToTop-btn"><i class="fas fa-arrow-up"></i></div>
 
-  <!-- Header -->
-  <header>
-    <a href="#" class="brand">NamaBrand</a>
-    <div class="menu-btn"></div>
-    <div class="navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#hope">Hope</a>
-    </div>
-  </header>
+    <header>
+        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">Eki</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
+            <a href="#Hopes" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Hopes</a>
+        </div>
+    </header>
 
-  <!-- Main Section -->
-  <section class="main" id="home">
-    <div class="content">
-      <h2>Halo, Saya <span>Eki</span></h2>
-      <div class="animated-text">
-        <h3>Programmer</h3>
-        <h3>Web Developer</h3>
-        <h3>UI Designer</h3>
-      </div>
-      <a href="#about" class="btn">Lihat Selengkapnya</a>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </div>
-  </section>
+    <section class="main" id="main">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Eki Hari Prayitna</span></h2>
+            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <h3>Web Developer</h3>
+                <h3>Web Designer</h3>
+                <h3>Programmer</h3>
+            </div>
+            
+            <div class="media-icons">
+                <a href="https://www.facebook.com/share/1AZsPfZFCa/" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/haryyy_27?igsh=bnM5MWJlejZkZTd1" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/eki-hari-prayitna-b5226b320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ekihari27" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="title">
-      <h2 class="section-title">Tentang Saya</h2>
-    </div>
-    <div class="content">
-      <div class="col-left">
-        <div class="img-card">
-          <img src="Image/about.jpg" alt="About Image" />
-        </div>
-      </div>
-      <div class="col-right">
-        <h2 class="content-title">Siapa Saya?</h2>
-        <p class="paragraph-text">Saya adalah seorang mahasiswa yang sedang belajar tentang pemrograman web dan pengembangan aplikasi modern...</p>
-      </div>
-    </div>
-  </section>
+<!--  About Section -->
 
-  <!-- Skills Section -->
-  <section class="skills" id="skills">
-    <div class="title">
-      <h2 class="section-title">Keterampilan</h2>
-    </div>
-    <div class="content">
-      <div class="col-left">
-        <h2 class="content-title">Kemampuan Saya</h2>
-        <p class="paragraph-text">Saya memiliki dasar dalam HTML, CSS, dan sedang mendalami JavaScript serta backend PHP & Python...</p>
-      </div>
-      <div class="col-right">
-        <div class="bar">
-          <div class="info"><span>HTML</span><span>55%</span></div>
-          <div class="line html"></div>
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Tentang Saya</h2>
         </div>
-        <div class="bar">
-          <div class="info"><span>CSS</span><span>50%</span></div>
-          <div class="line css"></div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="Image/erasebg-transformed (1).png" alt="">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Halo! Saya Eki Hari Prayitna</h2>
+                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Seorang mahasiswa Teknik Informatika dengan NIM 2303040020, yang tengah menempuh studi di Universitas Muhammadiyah Purwokerto. Saya memiliki ketertarikan dalam dunia teknologi, khususnya di bidang pengembangan perangkat lunak dan pemrograman. Saat ini, saya terus belajar dan mengembangkan keterampilan saya dalam berbagai aspek teknologi, mulai dari coding hingga pemecahan masalah berbasis IT.
+                    Saya percaya bahwa teknologi dapat memberikan solusi inovatif bagi berbagai permasalahan, dan saya bersemangat untuk terus berkembang serta berkontribusi dalam dunia digital.</p>
+                
+            </div>
         </div>
-        <div class="bar">
-          <div class="info"><span>JavaScript</span><span>5%</span></div>
-          <div class="line javascript"></div>
-        </div>
-        <div class="bar">
-          <div class="info"><span>Python</span><span>5%</span></div>
-          <div class="line python"></div>
-        </div>
-        <div class="bar">
-          <div class="info"><span>PHP</span><span>25%</span></div>
-          <div class="line php"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Hope Section -->
-  <section class="hope-section" id="hope">
+<!-- Skill Section -->
+
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left">
+                <h2 class="content-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Skills dan Kemampuan</h2>
+                <div class="paragraph-text" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300">Saya memiliki pengalaman dalam pemrograman web dengan PHP, serta memahami HTML, CSS, JavaScript, dan MySQL. Selain itu, saya juga mempelajari jaringan komputer, sistem operasi (Linux & Windows), dan problem solving dalam pemrograman.
+
+                    Saya terus belajar secara otodidak melalui berbagai sumber, meskipun masih sering dibantu oleh AI. Namun, saya berusaha memahami setiap konsep agar bisa berkembang lebih baik di dunia teknologi.</div>
+    
+            </div>
+            <div class="column col-right">
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
+                        <span>HTML</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="line html" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="140"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line css" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="240"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
+                        <span>Javascript</span>
+                        <span>5%</span>
+                    </div>
+                    <div class="line javascript" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="340"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                        <span>Python</span>
+                        <span>5%</span>
+                    </div>
+                    <div class="line python" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="440"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+                        <span>PHP</span>
+                        <span>25%</span>
+                    </div>
+                    <div class="line php" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hope Section -->
+<section class="hope-section" id="Hopes">
+    <div class="title reveal">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Hopes</h2>
+    </div>
     <div class="hope-content">
-      <div class="hope-image">
-        <div class="img-card">
-          <img src="Image/hope.jpg" alt="Hope" style="width: 100%; height: 100%; object-fit: cover;" />
+        <div class="hope-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <h2 class="content-title">Harapan Mengikuti Kelas Pemrograman Web Lanjut</h2>
+            <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                Saya berharap melalui perkuliahan Pemrograman Web Lanjut, saya dapat memperdalam pemahaman tentang 
+                teknologi web modern, termasuk penggunaan framework, API, dan optimasi aplikasi web. 
+                Selain itu, saya ingin meningkatkan keterampilan dalam menulis kode yang lebih efisien, 
+                terstruktur, dan scalable.
+                <br><br>
+                Saya juga berharap perkuliahan ini dapat membantu saya menjadi lebih mandiri dalam menyelesaikan 
+                masalah pemrograman serta mempersiapkan diri untuk tantangan di dunia industri teknologi.
+            </p>
         </div>
-      </div>
-      <div class="hope-text">
-        <h2 class="content-title">Harapan</h2>
-        <p class="paragraph-text">Saya berharap dapat menjadi seorang pengembang profesional yang bisa berkontribusi dalam dunia teknologi modern.</p>
-      </div>
     </div>
-  </section>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p class="footer-title">© 2025 Eki Hari Prayitna</p>
-    <p>Dibuat dengan ❤️ oleh <a href="#">EkiHP</a></p>
-  </footer>
+  
+      <footer class="footer">
+        <span class="footer-title">Eki Hari Prayitna</span>
+        <p>Copyright @2025 <a href="#">Zenkiii</a>. All Rights Reserved.</p>
+      </footer>
 
-  <!-- Optional JS for menu toggle -->
-  <script>
-    const menuBtn = document.querySelector('.menu-btn');
-    const navigation = document.querySelector('.navigation');
 
-    menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('active');
-      navigation.classList.toggle('active');
-    });
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
 
-    window.addEventListener('scroll', () => {
-      const header = document.querySelector('header');
-      header.classList.toggle('sticky', window.scrollY > 50);
-    });
-  </script>
+        window.addEventListener("scroll", function(){
+    scrollBtn.classList.toggle("active", window.scrollY > 500);
+});
 
+//javascript for scroll back to top on click scroll-to-top button
+
+// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// });
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navigationItems = document.querySelector(".navigation a");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+
+        // Navigation Effects
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        navigationItems.forEach((navigationItem) => {
+            navigationItem.addEventListener("click", () => {
+                menuBtn.classList.remove("active");
+                navigation.classList.remove("active")
+            })
+        })
+
+
+
+    </script>
 </body>
 </html>
